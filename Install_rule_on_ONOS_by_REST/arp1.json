@@ -1,0 +1,30 @@
+{
+  "priority": 41000,
+  "timeout": 0,
+  "isPermanent": true,
+  "deviceId": "of:0000000000000001",
+  "treatment": {
+    "instructions": [
+      {
+        "type": "OUTPUT",
+        "port": "2"
+      }
+    ]
+  },
+  "selector": {
+    "criteria": [
+	  {
+        "type": "ETH_TYPE",
+        "ethType": "0x0806"
+      },
+      {
+        "type": "IN_PORT",
+        "port": "1"
+      },
+      {
+        "type": "ETH_SRC",
+        "mac": "0E:29:6E:30:EC:B3"
+      }
+    ]
+  }
+}
