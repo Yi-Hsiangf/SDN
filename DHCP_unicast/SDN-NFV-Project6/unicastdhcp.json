@@ -1,0 +1,10 @@
+{
+  "apps": {
+    "yi.app.unicastdhcp" : {
+      "MyConfig" : {
+        "deviceConnectPoint": "of:0000000000000003/2"
+      }
+    }
+  }
+}
+
